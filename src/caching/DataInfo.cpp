@@ -17,7 +17,7 @@
  */
 #include "DataInfo.hpp"
 
-#include <bits/stdint-uintn.h>
+//#include <bits/stdint-uintn.h>
 
 #include <bitset>
 

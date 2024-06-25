@@ -18,7 +18,7 @@
 
 #include "WrapperGlucose.hpp"
 
-#include <bits/stdint-uintn.h>
+//#include <bits/stdint-uintn.h>
 
 #include <iostream>
 #include <typeinfo>
