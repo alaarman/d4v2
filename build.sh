@@ -59,5 +59,5 @@ fi
 cd $curRep
 mkdir -p build
 cd build
-cmake -GNinja .. -DBUILD_MODE=$opt 
+cmake -GNinja .. -DBUILD_MODE=$opt -DCMAKE_EXE_LINKER_FLAGS=-L/opt/homebrew/lib 
 ninja 
