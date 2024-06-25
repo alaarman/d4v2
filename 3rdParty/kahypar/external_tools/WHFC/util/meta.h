@@ -5,7 +5,12 @@
 #include <type_traits>
 #include <iostream>
 #include <typeinfo>
+
+#if defined(__GNUC__) && defined(__ARM_NEON__)
+#include "external_tools/sse2neon.h"
+#else
 #include <emmintrin.h>
+#endif
 
 #include <cstdlib>
 #include <memory>

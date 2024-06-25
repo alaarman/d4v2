@@ -23,6 +23,8 @@
 
 #if defined(_MSC_VER)
 #include <intrin.h>
+#elif defined(__GNUC__) && defined(__ARM_NEON__)
+#include "external_tools/sse2neon.h"
 #else
 #include <x86intrin.h>
 #endif
